@@ -9,7 +9,7 @@ const Navbar = () => {
     const navLinks = <>
         <li><Link href={"#about"} className='hover:text-white'>About</Link></li>
         <li><Link href={"#about"} className='hover:text-white'>Projects</Link></li>
-        <li><Link href={"#about"} className='hover:text-white'>Contact</Link></li>
+        <li><Link href={"#contact"} className='hover:text-white'>Contact</Link></li>
     </>
 
     return (

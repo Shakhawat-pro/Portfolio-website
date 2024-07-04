@@ -67,17 +67,18 @@ const AboutSection = () => {
     };
 
     return (
-        <section className='text-white w-11/12 mx-auto mt-40'>
+        <section className='text-white w-11/12 mx-auto mt-40' id='about'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-16'>
-                <div style={{ position: 'relative', width: '100%', height: '500px' }}> {/* Adjust height as needed */}
-                    <Image
+                {/* <div style={{ position: 'relative', width: '100%', height: '500px' }}> Adjust height as needed */}
+                    {/* <Image
                         src="/images/about-image.png"
                         alt="about img"
                         layout="fill"
                         objectFit="cover"
                         priority
-                    />
-                </div>
+                    /> */}
+                {/* </div> */}
+                <Image className='mx-auto' src="/images/about-image.png" alt='aboutME' width={500} height={500} />
                 <div className=''>
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-white texxt-base md:text-lg">

@@ -37,11 +37,11 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-            <div className='mx-auto rounded-full bg-[#181818] w-[300px] h-[300px] overflow-clip relative mt-4 lg:mt-0 '>
+            <div className='mx-auto rounded-full bg-[#181818] w-[300px] h-[300px] overflow-clip relative mt-4 lg:mt-0 transition-transform transform hover:scale-110'>
                 <Image
                     src="/images/ratul.png"
                     alt="hero image"
-                    className="absolute transform -translate-x-1/2  left-1/2"
+                    className="absolute transform -translate-x-1/2  left-1/2 "
                     width={200}
                     height={200}
                     priority 

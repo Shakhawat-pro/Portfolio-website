@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { MdClose, MdMenuOpen } from "react-icons/md";
-
+import "./styles.css"
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false)
 
@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <nav className='fixed top-0 left-0 right-0 z-50 bg-[#121212] py-4 border-b-2'>
             <div className='flex items-center mx-auto justify-between w-11/12'>
-                <Link href={"/"} className='text-white text-5xl font-bold uppercase'>Logo</Link>
+                <Link href={"/"} className='text-white text-4xl sm:text-5xl font-bold permanent'>Shakhawat</Link>
                 {/* Burger Menu */}
                 <div className='sm:hidden text-white text-4xl'>
                     {

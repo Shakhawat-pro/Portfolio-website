@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Permanent+Marker&display=swap');
+
+.gaFont{
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.permanent {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

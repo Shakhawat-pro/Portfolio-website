@@ -25,14 +25,13 @@ const HeroSection = () => {
                             repeat={Infinity} />
                     </span>
                 </h1>
-                <p className='text-[#ADB7BE]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur atque corrupti quaerat. Quidem, nobis earum.</p>
                 <div className='flex max-md:flex-col flex-row gap-5 max-md:mx-auto max-md:w-full'>
-                    <button className='px-6 py-3 max-md:w-full rounded-3xl text-white border-none  bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 transition-transform transform hover:scale-110'>Hire Me</button>
+                    <button className='px-6 py-3 max-md:w-full rounded-3xl text-white border-none  bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 transition-transform transform hover:scale-110'><a href="#contact">Hire Me</a></button>
                     <div className='transition-transform transform hover:scale-110'>
                         <button className="w-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 px-1 py-1  text-white rounded-full">
-                            <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 ">
+                            <a href='https://drive.google.com/uc?export=download&id=14uJye0KRPJycgUS9CjluQbktfLy2nIQV' download="Shakhawat_CV" className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 ">
                                 Download CV
-                            </span>
+                            </a>
                         </button>
                     </div>
                 </div>

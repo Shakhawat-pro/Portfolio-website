@@ -42,8 +42,14 @@ const TAB_DATA = [
         id: "certifications",
         content: (
             <ul className="list-disc pl-2">
-                <li>Complete Web Development Course</li>
-                <li>Communication Secrets</li>
+                <li><span className='text-[#ADB7BE]'>January, 2024 - July, 2024</span> <br />
+                    Complete Web Development Course <br />
+                    <a href='https://drive.google.com/file/d/1L_8ePTSw2ttXZIAoocLJc9okYjScXV35/view?usp=sharing' target='_blank' className='text-[#A855F7] font-bold underline'>View Certificate</a>
+                </li>
+                <li><span className='text-[#ADB7BE]'>2024 </span> <br />
+                    Communication Secrets <br />
+                    <a href='https://drive.google.com/file/d/1HOmsGALzxMBObegQjy6iQ7NMtW4VRcJW/view?usp=sharing' target='_blank' className='text-[#A855F7] font-bold underline'>View Certificate</a>
+                </li>
             </ul>
         ),
     },
@@ -75,7 +81,7 @@ const AboutSection = () => {
                 <div className=''>
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-white texxt-base md:text-lg">
-                    I am a front-end developer dedicated to crafting dynamic web experiences with HTML, CSS, Tailwind CSS, JavaScript, and React. I am also expanding my expertise to full-stack development, learning back-end technologies like Node.js, Express.js, and MongoDB. Proficient in version control with Git and GitHub, I specialize in responsive design, RESTful APIs, and Firebase authentication. My goal is to deliver high-quality, innovative web solutions tailored to meet project needs.</p>
+                        I am a front-end developer dedicated to crafting dynamic web experiences with HTML, CSS, Tailwind CSS, JavaScript, and React. I am also expanding my expertise to full-stack development, learning back-end technologies like Node.js, Express.js, and MongoDB. Proficient in version control with Git and GitHub, I specialize in responsive design, RESTful APIs, and Firebase authentication. My goal is to deliver high-quality, innovative web solutions tailored to meet project needs.</p>
                     <div className="flex flex-row justify-start mt-8 ">
                         <TabButton
                             selectTab={() => handleTabChange("skills")}
